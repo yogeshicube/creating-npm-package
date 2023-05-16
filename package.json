@@ -1,0 +1,27 @@
+{
+  "name": "@yogeshicube/creating-npm-package",
+  "version": "1.0.0",
+  "description": "creating npm package and uploading to npm",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build":"tsc",
+    "prepare": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshicube/creating-npm-package"
+  },
+  "keywords": [
+    "test",
+    "creating first package"
+  ],
+  "author": "Yogesh Dangi",
+  "license": "MIT",
+  "bugs": {},
+  "homepage": "https://github.com/yogeshicube/creating-npm-package#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": ["lib/**/*"]
+}
