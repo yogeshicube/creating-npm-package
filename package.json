@@ -23,5 +23,8 @@
   "devDependencies": {
     "typescript": "^5.0.4"
   },
+  "publishConfig": {
+    "@yogeshicube:registry": "https://npm.pkg.github.com"
+  },
   "files": ["lib/**/*"]
 }
