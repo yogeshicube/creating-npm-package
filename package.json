@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "creating npm package and uploading to npm",
   "main": "lib/index.js",
-  "types":"lib/index.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build":"tsc",
+    "build": "tsc",
     "prepare": "yarn run build"
   },
   "repository": {
@@ -26,5 +26,7 @@
   "publishConfig": {
     "@yogeshicube:registry": "https://npm.pkg.github.com"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
